@@ -9,7 +9,7 @@ Summary:	Catalyst::Plugin::HTML::Widget - HTML Widget And Validation Framework
 #Summary(pl.UTF-8):	
 Name:		perl-Catalyst-Plugin-HTML-Widget
 Version:	1.1
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -21,6 +21,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Catalyst >= 5.5
 BuildRequires:	perl-HTML-Widget
+BuildRequires:	perl-Module-Pluggable-Fast
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
